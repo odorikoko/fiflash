@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="generator" content="Hugo 0.157.0">
+    <meta charset="utf-8">
+    <title>她的小世界</title>
+
+    <style>
+        body {
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+        .polaroid {
+    display: inline-block;
+    background: white;
+    padding: 12px 12px 30px 12px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    margin: 20px;
+    transform: rotate(-2deg);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.polaroid:hover {
+    transform: rotate(0deg) scale(1.05);
+    box-shadow: 0 16px 30px rgba(0,0,0,0.25);
+}
+        @font-face {
+            font-family: 'myhand';
+            src: url('fonts/HYZhangZiShanTiW.ttf');
+        }
+
+        body {
+            font-family: sans-serif;
+            background: white;
+            text-align: center;
+            padding-top: 120px;
+        }
+
+        h1 {
+            font-family: 'myhand', sans-serif;
+            font-size: 48px;
+        }
+
+        p {
+            color: #666;
+        }
+
+        a.button {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 14px 28px;
+            border: 2px solid #333;
+            text-decoration: none;
+            color: #333;
+            border-radius: 8px;
+        }
+
+        a.button:hover {
+            background: #333;
+            color: white;
+        }
+
+        .gallery {
+            margin-top: 60px;
+        }
+
+        .polaroid {
+            display: inline-block;
+            background: white;
+            padding: 12px 12px 30px 12px;
+            box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+            margin: 20px;
+            transform: rotate(-2deg);
+        }
+
+        .polaroid img {
+            width: 260px;
+            display: block;
+        }
+
+        .polaroid p {
+            margin-top: 10px;
+            font-family: 'myhand', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>欢迎来到她的小世界</h1>
+    <p>这里会记录手作、旅行和写给世界的信</p>
+
+    <a class="button" href="posts/">进入她的故事</a>
+
+    <div class="gallery">
+         
+            <div class="polaroid">
+                <img src="images/test.jpg">
+                <p>她的第一张卡片</p>
+            </div>
+         
+            <div class="polaroid">
+                <img src="images/test.jpg">
+                <p>旅行的一天</p>
+            </div>
+        
+    </div>
+
+</body>
+</html>

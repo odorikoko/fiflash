@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Project</title>
+    <link>https://odorikoko.github.io/fiflash/</link>
+    <description>Recent content on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://odorikoko.github.io/fiflash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>她的第一张卡片</title>
+      <link>https://odorikoko.github.io/fiflash/posts/hello/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://odorikoko.github.io/fiflash/posts/hello/</guid>
+      <description>&lt;p&gt;这是她的小世界的第一条记录。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>旅行的一天</title>
+      <link>https://odorikoko.github.io/fiflash/posts/travel1/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://odorikoko.github.io/fiflash/posts/travel1/</guid>
+      <description>&lt;p&gt;这是一次快乐的旅行记录。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
